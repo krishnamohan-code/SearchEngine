@@ -1,22 +1,16 @@
-<!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="index.css">
-</head>
-<body>
+  <head>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="task.css">
+    <title>Comperio Super Simple Image Search</title>
+  </head>
+  <body>
+    <h2>This is sample search box </h2>
+    <input id="searchterm" placeholder="search" />
+    <button id="search"><i class="fa fa-search" onclick="myfunction()" ></i></button>
+    <div id="results"></div>
 
-<div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
-  <div class="search-container">
-    
-      <input id="search" type="text" placeholder="birds,animal" name="search" value="">
-      <button type="submit"><i class="fa fa-search" onclick="myfunction()" ></i></button>
-   
-  </div>
-</div>
-</body>
-<script src="index.js"></script>
+    <script src="task.js"></script>
+  </body>
 </html>
