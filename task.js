@@ -1,3 +1,4 @@
+/* J-Query*/
 $("#search").click(function(){
    $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
     {
@@ -13,6 +14,7 @@ $("#search").click(function(){
       });
     });
   });
+  /* Java Script */
   // document.getElementById("search").addEventListener(onclick,function()
   // {
   //   document.getJSON(
