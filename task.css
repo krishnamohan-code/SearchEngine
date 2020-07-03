@@ -9,10 +9,12 @@
     color: black;
 }
 h2{
-    color: black;
+    color:white;
+    padding: 0.5em;
+    background: orangered;
     position: absolute;
-    top: 80;
-    left: 300;
+    left: 450px;
+    top:75px;
 }
 
 i
@@ -20,11 +22,17 @@ i
  padding: 12px;
  cursor: pointer;
 }
+i:hover{
+    background: black;
+    color: aliceblue;
+}
 #searchterm{
-    margin-top: 110px;
-    margin-left: 200px;
+    border-style: none;
+    margin-top: 150px;
+    margin-left: 250px;
     height: 40px;
     width: 50%;
+    
 }
 #results
 {
